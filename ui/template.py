@@ -37,6 +37,7 @@ class Ui_Window(object):
         self.gridLayout.addWidget(self.DragDrop, 0, 0, 1, 3)
         self.passphrase = QtWidgets.QLineEdit(self.centralwidget)
         self.passphrase.setMinimumSize(QtCore.QSize(0, 45))
+        self.passphrase.setFocusPolicy(QtCore.Qt.ClickFocus)
         self.passphrase.setAcceptDrops(False)
         self.passphrase.setStyleSheet("background-color: rgb(24, 37, 51);\n"
 "color: rgb(238, 238, 236);\n"

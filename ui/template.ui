@@ -71,6 +71,9 @@ padding: 15px;</string>
         <height>45</height>
        </size>
       </property>
+      <property name="focusPolicy">
+       <enum>Qt::ClickFocus</enum>
+      </property>
       <property name="acceptDrops">
        <bool>false</bool>
       </property>
